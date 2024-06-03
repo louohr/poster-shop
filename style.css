@@ -107,7 +107,15 @@ p {
 .contact-information {
     background-color: #333333;
     color: white;
-    display: flex;
-    justify-content: space-between;
     padding: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-information h1 {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
 }
