@@ -116,6 +116,18 @@ p {
     font-size: 2rem;
 }
 
-ul {
+.contact-information li {
+    margin: 0;
+    padding: 3px;
+    padding-left: 0;
+}
+
+.contact-information ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media img {
+    margin-right: 15px;
 }
