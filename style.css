@@ -2,8 +2,6 @@ body {
     margin: 0;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -13,30 +11,28 @@ body {
     height: auto;
 }
 
-.card-container {
-    padding: 2px 16px;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.card,
+.bigger-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     transition: 0.3s;
-    margin: 10px;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin: 2px;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin: 10px;
-    padding: 0 20px;
+    gap: 2px;
+    padding: 70px;
 }
 
-.gallery img {
-    width: 200px;
+.gallery img,
+.gallery-two img {
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -44,10 +40,10 @@ body {
 button {
     background-color: #e83f57;
     color: white;
-    font-size: 1rem;
+    font-size: .8rem;
     width: 200px;
-    padding: 15px;
-    margin: 10px;
+    padding: 10px;
+    margin: 10px 0;
     border-radius: 8px;
     font-weight: bold;
 }
@@ -57,9 +53,34 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    color: white;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+p {
+    color: white;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.bigger-card {
+    width: 90%;
+    margin: 2px;
+}
+
+.gallery-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    padding: 70px;
+}
+
 .contact-information {
     background-color: #333333;
     color: white;
     display: flex;
     justify-content: space-between;
+    padding: 50px;
 }
