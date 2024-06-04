@@ -31,7 +31,7 @@ body {
 }
 
 .gallery img,
-.gallery-two img {
+.checkout-items img {
     width: 100%;
     height: auto;
     display: block;
@@ -89,6 +89,22 @@ h1 {
     padding: 5px;
 }
 
+h2 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin: 5px 0;
+    padding: 5px;
+}
+
 p {
     font-family: "Fira Sans", sans-serif;
     color: white;
@@ -101,15 +117,41 @@ p {
     margin: 2px;
 }
 
-.gallery-two {
+.checkout-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     padding: 70px;
 }
 
-.gallery-two h1 {
+.checkout-items h1 {
     color: black;
+}
+
+.checkout-order {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    margin: 70px;
+    color: white;
+}
+
+.total {
+    border-top: 3px solid white;
+    font-weight: 600;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.btn-checkout {
+    background-color: #e83f57;
+    color: white;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Fira sans", sans-serif;
+    margin: 60px;
 }
 
 .contact-information {
