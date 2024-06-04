@@ -138,14 +138,7 @@ p {
 }
 
 /* for checkout page */
-.big-card {
-    width: 90%;
-    margin: 2px;
-}
-
-.row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2px;
-    padding: 70px;
+.bigger-card-checkout {
+    width: 70%;
+    margin: 20px;
 }
