@@ -136,3 +136,16 @@ p {
 .social-media img {
     margin-right: 15px;
 }
+
+/* for checkout page */
+.big-card {
+    width: 90%;
+    margin: 2px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    padding: 70px;
+}
