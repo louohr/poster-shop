@@ -97,15 +97,19 @@ p {
 }
 
 .bigger-card {
-    width: 90%;
+    width: 70%;
     margin: 2px;
 }
 
 .gallery-two {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2px;
+    gap: 40px;
     padding: 70px;
+}
+
+.gallery-two h1 {
+    color: black;
 }
 
 .contact-information {
