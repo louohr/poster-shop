@@ -19,6 +19,14 @@ header {
     transform: translateX(-50%);
 }
 
+.navicon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: auto;
+}
+
 .title {
     color: black;
     font-size: 4rem;

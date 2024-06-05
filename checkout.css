@@ -19,6 +19,14 @@ header {
     transform: translateX(-50%);
 }
 
+.navicon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: auto;
+}
+
 .title {
     color: black;
     font-size: 4rem;
@@ -100,6 +108,7 @@ h1 {
     font-size: 2rem;
     margin: 5px 0;
     padding: 5px;
+    padding-left: 70px;
 }
 
 h2 {
@@ -154,14 +163,21 @@ p {
 }
 
 .total {
-    border-top: 3px solid white;
+    border-top: 2px solid white;
     font-weight: 600;
     padding: 20px 0;
     font-size: 20px;
     grid-column: 1 / span 3;
 }
 
-.header {
+.total-amount {
+    font-weight: 600;
+    padding: 20px 0;
+    font-size: 20px;
+    grid-column: 3 / span 3;
+}
+
+.checkout-header {
     font-weight: bold;
     background-color: #e83f57;
 }
@@ -180,6 +196,11 @@ p {
     font-size: 1rem;
     font-family: "Fira sans", sans-serif;
     margin: 60px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .contact-information {
