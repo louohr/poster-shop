@@ -6,9 +6,22 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    padding: 200px;
+    text-align: center;
+    background: #3de07e;
+}
+
 .header-image {
-    width: 100vw;
-    height: auto;
+    position: absolute;
+    top: 345px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title {
+    color: black;
+    font-size: 4rem;
 }
 
 .card,

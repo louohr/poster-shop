@@ -7,11 +7,21 @@ body {
 }
 
 header {
-    padding: 100px;
+    padding: 200px;
     text-align: center;
     background: #3de07e;
-    color: white;
-    font-size: 30px;
+}
+
+.header-image {
+    position: absolute;
+    top: 345px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title {
+    color: black;
+    font-size: 4rem;
 }
 
 .card,
