@@ -63,7 +63,7 @@ button {
     color: white;
     font-size: .8rem;
     width: 200px;
-    padding: 10px;
+    padding: 15px;
     margin: 10px 0;
     border-radius: 8px;
     font-weight: bold;
@@ -159,7 +159,7 @@ p {
 }
 
 .checkout-order>p:nth-child(11) {
-    grid-column: 1 / span 3;
+    grid-column: 3 / span 1;
 }
 
 .total {
@@ -167,19 +167,13 @@ p {
     font-weight: 600;
     padding: 20px 0;
     font-size: 20px;
-    grid-column: 1 / span 3;
-}
-
-.total-amount {
-    font-weight: 600;
-    padding: 20px 0;
-    font-size: 20px;
-    grid-column: 3 / span 3;
+    grid-column: span 2;
+    margin: 0;
 }
 
 .checkout-header {
     font-weight: bold;
-    background-color: #e83f57;
+    background-color: #3f070fad;
 }
 
 .checkout-order p {
