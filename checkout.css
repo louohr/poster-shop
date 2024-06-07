@@ -225,3 +225,130 @@ p {
 .social-media img {
     margin-right: 15px;
 }
+
+/* mobile view */
+@media (max-width: 768px) {
+    header {
+        padding: 100px;
+    }
+
+    .header-image {
+        top: 200px;
+        width: 80%;
+    }
+
+    .navicon {
+        width: 30px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .checkout-items {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .checkout-order {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+
+    .checkout-order p {
+        padding: 5px 0;
+    }
+
+    .total {
+        padding: 10px 0;
+        font-size: 1rem;
+    }
+
+    .btn-checkout {
+        margin: 20px;
+        padding: .5rem;
+        font-size: .8rem;
+    }
+
+    .contact-information {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contact-information section {
+        margin-bottom: 20px;
+    }
+
+    .social-media img {
+        width: 30px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 80px;
+    }
+
+    .header-image {
+        top: 53px;
+        width: 70%;
+    }
+
+    .navicon {
+        width: 25px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .checkout-items {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .checkout-order {
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+
+    .checkout-order p {
+        padding: 5px 0;
+    }
+
+    .total {
+        padding: 5px 0;
+        font-size: 0.8rem;
+    }
+
+    .btn-checkout {
+        margin: 10px;
+        padding: .3rem;
+        font-size: .6rem;
+    }
+
+    .contact-information {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .contact-information section {
+        margin-bottom: 10px;
+    }
+
+    .socal-media img {
+        width: 25px;
+        margin-right: 5px;
+    }
+}
