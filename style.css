@@ -14,7 +14,7 @@ header {
 
 .header-image {
     position: absolute;
-    top: 345px;
+    top: 336px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -67,6 +67,8 @@ button {
     margin: 10px 0;
     border-radius: 8px;
     font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
 
 .bigger-card button {
@@ -88,7 +90,6 @@ button {
 .bigger-card p {
     font-family: "Fira Sans", sans-serif;
     color: black;
-    padding: 5px;
     margin: 5px 0;
 }
 
@@ -106,8 +107,7 @@ h1 {
     font-family: "Roboto", sans-serif;
     color: white;
     font-size: 2rem;
-    margin: 5px 0;
-    padding: 5px;
+    margin: 5px;
 }
 
 p {
@@ -118,15 +118,8 @@ p {
 }
 
 .bigger-card {
-    width: 90%;
+    width: 850px;
     margin: 2px;
-}
-
-.gallery-two {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2px;
-    padding: 70px;
 }
 
 .contact-information {
