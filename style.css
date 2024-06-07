@@ -157,3 +157,74 @@ p {
 .social-media img {
     margin-right: 15px;
 }
+
+/* mobile view */
+@media (max-width: 1024px) {
+    header {
+        padding: 100px 20px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-two {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 80px 20px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .gallery-two {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 60px 10px;
+    }
+
+    .header-image {
+        top: 120px;
+        max-width: 60px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .navicon {
+        width: 30px;
+    }
+
+    button {
+        font-size: 0.7rem;
+        padding: 8px;
+    }
+
+    .bigger-card button {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .bigger-card h1 {
+        font-size: 1.2rem;
+    }
+
+    .contact-information {
+        padding: 10px;
+    }
+}
