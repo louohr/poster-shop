@@ -51,8 +51,7 @@ header {
     padding: 70px;
 }
 
-.gallery img,
-.gallery-two img {
+.gallery img {
     width: 100%;
     height: auto;
     display: block;
@@ -152,20 +151,6 @@ p {
 }
 
 /* mobile view */
-@media (max-width: 1024px) {
-    header {
-        padding: 100px 20px;
-    }
-
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .gallery-two {
-        grid-template-columns: 1fr;
-    }
-}
-
 @media (max-width: 768px) {
     header {
         padding: 80px 20px;
@@ -176,16 +161,12 @@ p {
         padding: 10px;
     }
 
-    .gallery-two {
-        grid-template-columns: 1fr;
-    }
-
     .title {
         font-size: 1.8rem;
     }
 
     .bigger-card {
-        width: 100%;
+        width: 90%;
         margin: 0;
     }
 }
@@ -227,7 +208,7 @@ p {
     }
 
     .bigger-card {
-        width: 100%;
+        width: 90%;
         margin: 0;
     }
 }
